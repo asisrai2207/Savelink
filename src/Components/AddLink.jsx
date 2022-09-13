@@ -32,7 +32,7 @@ export default function AddLink() {
   }
 
   // const filteredLink = inputLink.filter((link) => {
-  //   return link.name.toLowerCase().includes(searchWord); //tolowercase to convert the coin name to lowercase
+  //   return link.name.toLowerCase().includes(searchWord); 
   // });
 
   return (
@@ -62,9 +62,7 @@ export default function AddLink() {
       
       {/* <input type ="text" placeholder="search link.." onChange={(event)=>{
           setSearchWord((event.target.value))
-        }}/>
-
-         */}
+        }}/> */}
 
       {link.map((object, index) => (
         <div className="card" key={index}>

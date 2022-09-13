@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+.card{
+  border: 1px solid black;
+  width: 400px;
+  margin: 5px auto;
+  
+}
+
+.inputTag{
+  margin: 5px;
+  width: 200px;
+}
